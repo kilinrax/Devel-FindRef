@@ -1,0 +1,10 @@
+COPYING
+Changes
+Makefile.PL
+MANIFEST
+README
+FindRef.xs
+FindRef.pm
+t/00_load.t
+t/pad.t
+META.json

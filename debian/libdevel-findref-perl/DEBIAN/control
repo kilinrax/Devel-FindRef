@@ -1,0 +1,27 @@
+Package: libdevel-findref-perl
+Version: 1.422-1
+Architecture: amd64
+Maintainer: Alex <alex@basilisk.state51.co.uk>
+Installed-Size: 50
+Depends: perl (>= 5.22.1-9), perlapi-5.22.1, libc6 (>= 2.2.5), libcommon-sense-perl
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Devel-FindRef
+Description: unknown
+ Tracking down reference problems (e.g. you expect some object to be
+ destroyed, but there are still references to it that keep it alive) can be
+ very hard. Fortunately, perl keeps track of all its values, so tracking
+ references "backwards" is usually possible.
+ .
+ The track function can help track down some of those references back to the
+ variables containing them.
+ .
+ For example, for this fragment:
+ .
+ package Test;
+ .
+ use Devel::FindRef;
+ .
+ use Scalar::Util;
+ .
+ This description was automagically extracted from the module by dh-make-perl.
